@@ -1,7 +1,7 @@
 body {
     background: #EBECFB;
-    margin: 0px;
-    padding: 0px;
+    margin: 0em 0em 1em 1em;
+    padding: 0em;
   }
   
   main {
@@ -17,23 +17,10 @@ body {
     color: black;
   }
   
-  /* .cards {
-      float:left;
-  } */
-  
-  /* .engagement-cards {
-      float: left;
-  } */
-  
-  /* .card-single1 {
-      float: left;
-  } */
-  
-  
 
   .engagement-cards {
-      border: solid;
       width: 100%;
+      float: left;
   }
 
   .engagement-card1 {
@@ -60,37 +47,33 @@ body {
   .card-single1 {
       float: left;
       width: 40%;;
-      border: solid;
-      background: pink;
+
   }
 
 .outcome-cards1 {
-    width: 90%;
+    width: 110%;
     float: left;
-    background: white;
 }
 
  .card-single2 {
-     width: 60%;
+     width: 65%;
      float: right;
-     border: solid;
-     background: orange;
  }
 
  .all-outcomes {
-  /* padding: 0.5rem 5rem 01rem 1.5rem;
-  border-radius: 0px 0px 7px 7px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 0.1rem solid;
+  border-color: white;
+  padding: 0.5rem 5rem 01rem 1.5rem;
+  border-radius: 7px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.7);
-  float: left; */
-  border: solid;
-
+  float: left;
+  width: 80%;
  }
 
  #cdc {
-     width: 100%;
+     width: 92%;
      float: left;
-     background: white;
  }
 
  .activity-title {
@@ -98,60 +81,57 @@ body {
      width: 100%;
  }
 
- .feature-cards1 {
-     float: left;
-     border: solid;
-     background: green;
-     width: 45%;
- }
 
- .feature-cards2 {
-     float: left;
-    border: solid;
-    background: yellow;
-    width: 45%;
-}
 
 .outcome1 {
-    border: solid;
     width: 21%;
     float: left;
+    /* border: solid; */
 }
 
 .outcome2 {
-    border: solid;
     width: 24%;
     float: left;
+    /* border: solid; */
 }
 
 .outcome3 {
-    border: solid;
     width: 25%;
     float: left;
+    /* border: solid; */
 }
 
 .outcome4 {
-    border: solid;
     width: 23%;
     float: left;
+    /* border: solid; */
 }
 
 .outcome5 {
-    border: solid;
     width: 28%;
     float: left;
 }
 
 .outcome6 {
-    border: solid;
     width: 28%;
     float: left;
 }
 
 .outcome7 {
-    border: solid;
     width: 28%;
     float: left;
+}
+
+
+.feature-cards1 {
+  float: left;
+  width: 45%;
+  margin-right: 3.5em;
+}
+
+.feature-cards2 {
+  float: left;
+ width: 45%;
 }
 
 .feature1-row1 {
@@ -171,50 +151,46 @@ body {
 }
 
 .feature1-row1-col1 {
-  border: solid;
   float: left;
   width: 30%;
+  padding: 0em 2em 1em 0em;
 }
 
   
 .feature1-row1-col2 {
-  border: solid;
   float: left;
   width: 50%;
 }
 
 .feature2-row2-col1 {
-  border: solid;
   float: left;
   width: 30%;
+  padding: 0em 2em 1em 0em;
 }
 
 .feature2-row2-col2 {
-  border: solid;
   float: left;
   width: 50%;
 }
 
 .feature3-row1-col1 {
-  border: solid;
   float: left;
   width: 30%;
+  padding: 0em 2em 1em 0em;
 }
 
 .feature3-row1-col2 {
-  border: solid;
   float: left;
   width: 50%;
 }
 
 .feature4-row2-col1 {
-  border: solid;
   float: left;
   width: 30%;
+  padding: 0em 2em 1em 0em;
 }
 
 .feature4-row2-col2 {
-  border: solid;
   float: left;
   width: 50%;
 }
@@ -227,6 +203,7 @@ body {
   border-radius: 10px;
   float: left;
   width: 100%;
+  margin: -1em 0em 1em 0em;
 }
 
 .feature2-row2 {
@@ -237,6 +214,7 @@ body {
   border-radius: 10px;
   float: left;
   width: 100%;
+  margin: 0em 0em 1em 0em;
 }
 
 .feature3-row1 {
@@ -246,6 +224,7 @@ body {
   padding: 0rem 0.5rem 0rem 1.5rem;
   border-radius: 10px;
   float: left;
+  margin: -1em 0em 1em 0em;
 }
 
 .feature4-row2 {
@@ -255,161 +234,16 @@ body {
   padding: 0rem 0.5rem 0rem 1.5rem;
   border-radius: 10px;
   float: left;
+  margin: 0em 0em 1em 0em;
 }
 
-
-
-
-
-
-  /* .float-intro card-single2 {
-    float: left; */
-    /* position: relative; */
-
-
-  /* .float-intro engagement-card1 { */
-      /* float: left;
-      margin-right: 1em; */
-      /* position: relative; */
-  
-  
-  /* .cards {
-    float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 2;
-        grid-template-columns: repeat(2, auto);
-    grid-gap: 10rem;
-  }
-  
-  .engagement-cards {
-    float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 2;
-        grid-template-columns: repeat(2, auto);
-    grid-gap: 0.2rem;
-  }
-  
-  .outcome-cards1 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 4;
-        grid-template-columns: repeat(4, auto);
-    grid-gap: 1rem;
-  }
-  
-  .outcome-cards2 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 3;
-        grid-template-columns: repeat(3, auto);
-    grid-gap: 1rem;
-  }
-  
-  .feature-cards1 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem;
-  }
-  
-  .feature-cards2 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem;
-  }
-  
-  .feature1-row1 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-  
-  .feature1-row2 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-  
-  .feature2-row1 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-  
-  .feature2-row2 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-  
-  .feature3-row1 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-  
-  .feature3-row2 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-  
-  .feature4-row1 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
-  
-  .feature4-row2 {
-      float: left;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  } */
   
   .cards h2 {
     font-size: 1.2em;
   }
   
   .card-single1 {
-    /* -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; */
     padding: 0.5rem 0.5rem 0rem 0rem;
-    border-radius: 10px;
-    border: solid;
     width: 30%;
   }
   
@@ -432,29 +266,6 @@ body {
     color: white;
   }
   
-  /* .outcome-cards1 {
-    margin-top: 2rem;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 0.5rem 2rem 0rem 1.5rem;
-    border-radius: 7px 7px 0px 0px;
-    text-align: center;
-    float: left;
-  } */
-  
-  /* .outcome-cards2 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: white;
-    padding: 0.5rem 5rem 01rem 1.5rem;
-    border-radius: 0px 0px 7px 7px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.7);
-    float: left;
-  } */
   
   .card-single2 p {
     color: #797979;
@@ -474,9 +285,6 @@ body {
   }
   
   .engagement-card1 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     background: red;
     padding: 0rem 1rem 1rem 1rem;
     border-radius: 10px;
@@ -486,9 +294,6 @@ body {
   }
   
   .engagement-card2 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     background: green;
     padding: 0rem 1rem 1rem 1rem;
     border-radius: 10px;
@@ -498,16 +303,6 @@ body {
     margin-bottom: 1rem;
   }
   
-  /* .feature1 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: rgba(255, 255, 255, 0.6);
-    border: 0.1rem solid;
-    border-color: white;
-    padding: 0rem 0.5rem 0rem 1.5rem;
-    border-radius: 10px;
-  } */
   
   .feature1 h2 {
     color: #7902CC;
@@ -522,50 +317,18 @@ body {
     color: red;
   }
   
-  /* .feature2 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: rgba(255, 255, 255, 0.6);
-    border: 0.1rem solid;
-    border-color: white;
-    padding: 0rem 0.5rem 0rem 1.5rem;
-    border-radius: 10px;
-  } */
-  
+
   .feature2 h2 {
     color: #7902CC;
     font-size: 1.2em;
   }
   
-  /* .feature3 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: rgba(255, 255, 255, 0.6);
-    border: 0.1rem solid;
-    border-color: white;
-    padding: 0rem 0.5rem 0rem 1.5rem;
-    border-radius: 10px;
-    margin-top: 1rem;
-  } */
-  
+
   .feature3 h2 {
     color: #7902CC;
     font-size: 1.2em;
   }
   
-  /* .feature4 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: rgba(255, 255, 255, 0.6);
-    border: 0.1rem solid;
-    border-color: white;
-    padding: 0rem 0.5rem 0rem 1.5rem;
-    border-radius: 10px;
-    margin-top: 1rem;
-  } */
   
   .feature4 h2 {
     color: #7902CC;
